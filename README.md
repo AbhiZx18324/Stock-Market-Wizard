@@ -104,6 +104,6 @@ python main.py
 #### Step 6: Run Streamlit UI
 
 Open ui.py and change the following line:
-`api_host = "rag"` to `api_host = "127.0.0.1"`
+`api_host = "rag"` to `api_host = "127.0.0.1"`<br>
 You can run the UI separately by running Streamlit app
 `streamlit run ui.py` command. It connects to the Pathway's backend API automatically and you will see the UI frontend is running on your browser.
