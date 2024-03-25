@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 api_host = "rag"
-api_port = int(os.environ.get("PATHWAY_REST_CONNECTOR_PORT"))
+api_port = int(os.environ.get("PORT", "8080"))
 
 
 # Streamlit UI elements
