@@ -11,7 +11,7 @@ As you can see the LLM App enables AI-powered summarization of multiple news reg
 
 ## How to run the tool
 
-### Run with Docker
+### Run with Docker (preferred)
 
 1. Create `.env` file in the root directory of the project, copy and paste the below config. Replace the `OPENAI_API_KEY` configuration value with your key `<Your Token>`
 
@@ -83,7 +83,14 @@ python -m venv pw-env && source pw-env/bin/activate
 Install the required packages:
 
 ```bash
-pip install --upgrade -r requirements.txt
+pip install -U pathway
+pip install -U requests
+pip install -U bs4
+pip install -U datetime
+pip install -U openai
+pip install -U python-dotenv
+pip install -U streamlit
+pip install -U jsonlines
 ```
 
 #### Step 5: Run the Pathway API
@@ -96,5 +103,7 @@ python main.py
 
 #### Step 6: Run Streamlit UI
 
+Open ui.py and change the following line:
+`api_host = "rag"` to `api_host = "127.0.0.1"`
 You can run the UI separately by running Streamlit app
 `streamlit run ui.py` command. It connects to the Pathway's backend API automatically and you will see the UI frontend is running on your browser.
