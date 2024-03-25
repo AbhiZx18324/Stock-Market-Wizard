@@ -7,7 +7,7 @@ See how the tool works:
 
 ![Stock Market Wizard tool demo](Demo/stock-market-wizard.mp4)
 
-As you can see the LLM App enables AI-powered summarization of multiple news regarding the stock market, and indexes input data in real-time just after getNews.py updates the ./MarketNews folder.
+As you can see the LLM App enables AI-powered summarization of multiple news regarding the stock market, and indexes input data in real-time just after getNews.py updates the ./MarketNews folder with the latest news.
 
 ## How to run the tool
 
