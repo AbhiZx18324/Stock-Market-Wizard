@@ -37,7 +37,6 @@ PATHWAY_PERSISTENT_STORAGE=/tmp/cache
 1. Make sure that [Python](https://www.python.org/downloads/) 3.10 or above installed on your machine.
 2. Download and Install [Pip](https://pip.pypa.io/en/stable/installation/) to manage project packages.
 3. Create an [OpenAI](https://openai.com/) account and generate a new API Key: To access the OpenAI API, you will need to create an API Key. You can do this by logging into the [OpenAI website](https://openai.com/product) and navigating to the API Key management page.
-4. Use your Dropbox/OneDrive account.
 
 Then, follow the easy steps to install and get started using the sample app.
 
