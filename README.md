@@ -13,16 +13,18 @@ As you can see the LLM App enables AI-powered summarization of multiple news reg
 
 ### Run with Docker
 
-1. Create `.env` file in the root directory of the project, copy and paste the below config. Replace the `OPENAI_API_TOKEN` configuration value with your key `{OPENAI_API_KEY}` and replace `DROPBOX_LOCAL_FOLDER_PATH` with a path where Dropbox folder is located `{REPLACE_WITH_DROPBOX_FOLDER_PATH}`. For example, if the current project folder is `DROPBOX-SEARCH-TOOL`, you navigate to the Dropbox path in the home directory: `../Dropbox/documents`. Other properties are optional to change and be default.
+1. Create `.env` file in the root directory of the project, copy and paste the below config. Replace the `OPENAI_API_KEY` configuration value with your key `<Your Token>`
 
 ```bash
-OPENAI_API_TOKEN={OPENAI_API_KEY}
-EMBEDDER_LOCATOR=text-embedding-ada-002
+HOST=0.0.0.0
+PORT=8080
 EMBEDDING_DIMENSION=1536
+EMBEDDER_LOCATOR=text-embedding-ada-002
 MODEL_LOCATOR=gpt-3.5-turbo
 MAX_TOKENS=200
 TEMPERATURE=0.0
-DROPBOX_LOCAL_FOLDER_PATH={REPLACE_WITH_DROPBOX_RELATIVE_PATH}
+OPENAI_API_KEY=<Your Token>
+PATHWAY_PERSISTENT_STORAGE=/tmp/cache
 ```
 
 2. From the project root folder, open your terminal and run `docker compose up`.
