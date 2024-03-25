@@ -13,7 +13,7 @@ As you can see the LLM App enables AI-powered summarization of multiple news reg
 
 ### Run with Docker (preferred)
 
-1. Create `.env` file in the root directory of the project, copy and paste the below config. Replace the `OPENAI_API_KEY` configuration value with your key `<Your Token>`
+1. Create `.env` file and `MarketNews` folder in the root directory of the project, copy and paste the below config. Replace the `OPENAI_API_KEY` configuration value with your key `<Your Token>`
 
 ```bash
 HOST=0.0.0.0
@@ -56,7 +56,7 @@ cd Stock-Market-Wizard
 
 #### Step 2: Set environment variables
 
-Create `.env` file in the root directory of the project, copy and paste the below config, and replace the `<Your Token>` configuration value with your key.
+Create `.env` file and `MarketNews` folder in the root directory of the project, copy and paste the below config, and replace the `<Your Token>` configuration value with your key.
 
 ```bash
 HOST=0.0.0.0
