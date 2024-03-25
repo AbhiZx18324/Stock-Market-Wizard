@@ -46,32 +46,30 @@ Then, follow the easy steps to install and get started using the sample app.
 This is done with the `git clone` command followed by the URL of the repository:
 
 ```bash
-git clone https://github.com/pathway-labs/dropbox-ai-chat
+git clone https://github.com/AbhiZx18324/Stock-Market-Wizard.git
 ```
 
 Next,  navigate to the project folder:
 
 ```bash
-cd dropbox-ai-chat
+cd Stock-Market-Wizard
 ```
 
 #### Step 2: Set environment variables
 
-Create `.env` file in the root directory of the project, copy and paste the below config, and replace the `{OPENAI_API_KEY}` configuration value with your key.
+Create `.env` file in the root directory of the project, copy and paste the below config, and replace the `<Your Token>` configuration value with your key.
 
 ```bash
-OPENAI_API_TOKEN={OPENAI_API_KEY}
 HOST=0.0.0.0
 PORT=8080
-EMBEDDER_LOCATOR=text-embedding-ada-002
 EMBEDDING_DIMENSION=1536
+EMBEDDER_LOCATOR=text-embedding-ada-002
 MODEL_LOCATOR=gpt-3.5-turbo
 MAX_TOKENS=200
 TEMPERATURE=0.0
-DROPBOX_LOCAL_FOLDER_PATH="../../../mnt/c/Users/bumur/Dropbox/documents"
+OPENAI_API_KEY=<Your Token>
+PATHWAY_PERSISTENT_STORAGE=/tmp/cache
 ```
-
-Replace DROPBOX_LOCAL_FOLDER_PATH with your local Dropbox folder path and optionally, you customize other values.
 
 #### Step 3 (Optional): Create a new virtual environment
 
