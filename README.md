@@ -16,7 +16,8 @@ As you can see the LLM App enables AI-powered summarization of multiple news reg
 
 ## Data Pipeline Architecture
 
-![Pipeline](https://pathway.com/assets/content/showcases/llm-app/llm-architecture.png)
+![Pipeline](https://pathway.com/assets/content/showcases/llm-app/llm-architecture.png)<br>
+*Image credit: [Pathway](https://pathway.com/developers/user-guide/llm-xpack/llm-app-pathway/)*
 <br>Here, `./MarketNews` acts as the document database which is getting updated in realtime from the news streaming platform.<br>
 
 
