@@ -12,7 +12,14 @@ See how the tool works:
 
 
 
-As you can see the LLM App enables AI-powered summarization of multiple news regarding the stock market, and indexes input data in real-time just after getNews.py updates the ./MarketNews folder with the latest news.
+As you can see the LLM App enables AI-powered summarization of multiple news regarding the stock market, and indexes input data in real-time just after `getNews.py` updates the `./MarketNews` folder with the latest news.
+
+## Data Pipeline Architecture
+
+![Pipeline](https://pathway.com/assets/content/showcases/llm-app/llm-architecture.png)
+<br>Here, `./MarketNews` acts as the document database which is getting updated in realtime from the news streaming platform.<br>
+
+
 
 ## How to run the tool
 
